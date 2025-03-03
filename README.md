@@ -18,7 +18,7 @@ All channels have a unique id provided by YouTube. Example (Mr Beast): UCX6OQ3Dk
 1. Local Dynamodb instance with table named "videos_metadata" installed on port 8080
 2. Python
 
-## To Run:
+## To Run locally:
 Open a browser or use curl or Postman to test:
 http://127.0.0.1:8000/api/channels/UCX6OQ3DkcsbYNE6H8uQQuVA/videos/ (Example: MrBeast)
 http://127.0.0.1:8000/api/channels/invalid-channel-id/videos/ (For testing the validation)
