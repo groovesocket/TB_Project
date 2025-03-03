@@ -1,4 +1,4 @@
-# TubeBuddy code project
+# TB code project
 
 ## Description:
 This is a basic Django REST Framework API that returns metadata for recent videos for any arbitrary YouTube channel. 
