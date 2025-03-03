@@ -20,6 +20,8 @@ All channels have a unique id provided by YouTube. Example (Mr Beast): UCX6OQ3Dk
 
 ## To Run locally:
 Open a browser or use curl or Postman to test:
-http://127.0.0.1:8000/api/channels/UCX6OQ3DkcsbYNE6H8uQQuVA/videos/ (Example: MrBeast)
+http://127.0.0.1:8000/api/channels/UCX6OQ3DkcsbYNE6H8uQQuVA/videos/ (Example: MrBeast channel)
+http://localhost:8000/api/channels/UC_x5XG1OV2P6uZZ5FSM9Ttw/videos/ (Example: Google Developers channel)
+http://localhost:8000/api/channels/UCqFzWxSCi39LnW1JKFR3efg/videos/ (Example: SNL channel)
 http://127.0.0.1:8000/api/channels/invalid-channel-id/videos/ (For testing the validation)
 Note the channel ID needs to start with UC to be considered valid.
