@@ -13,7 +13,8 @@ dynamodb = boto3.resource(
     aws_access_key_id="fakeKey",
     aws_secret_access_key="fakeSecret"
 )
-
+# FYI...When I created this table, I mistakenly named the table's pk "video_id" instead of "channel_id".
+#  There is no way to change the pk name in DynamoDB with creating a new table, so I just left it as is.
 table = dynamodb.Table("youtube_metadata")
 
 
